@@ -67,3 +67,6 @@ Run from [Query Console](http://docs.marklogic.com/guide/qconsole):
 2014-12-27 00:22:11.897 Error: App-Services:     at doEval (/MarkLogic/appservices/qconsole/qconsole-js-amped.sjs:5:19)
 2014-12-27 00:22:11.897 Error: App-Services:     at /qconsole/endpoints/evaljs.sjs:105:29
 ```
+
+## Acknowledgements
+`console` and `util` are adapted from Node.js (v0.10.35) which is copyright Joyent, Inc. and other Node contributors. `assert` is used as-is from Node.js, which adapted code from narwhal.js, copyright [Thomas Robinson](http://280north.com).
